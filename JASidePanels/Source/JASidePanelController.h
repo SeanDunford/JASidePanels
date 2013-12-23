@@ -89,7 +89,10 @@ typedef enum _JASidePanelState {
 @property (nonatomic, readonly) CGFloat rightVisibleWidth;
 
 // hide drop shadows without subclassing
-@property (nonatomic, assign) BOOL hideShadows; //Defaults to NO;
+@property (nonatomic, assign) BOOL hideShadows; //Defaults to NO
+
+// disable corner rounding without subclassing
+@property (nonatomic, assign) BOOL roundCorners; //Defaults to YES
 
 // by default applies a black shadow to the container. override in sublcass to change
 - (void)styleContainer:(UIView *)container animate:(BOOL)animate duration:(NSTimeInterval)duration;

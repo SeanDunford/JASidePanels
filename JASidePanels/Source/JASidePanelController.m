@@ -80,7 +80,8 @@ static char ja_kvoContext;
 @synthesize allowLeftSwipe = _allowLeftSwipe;
 @synthesize allowRightSwipe = _allowRightSwipe;
 @synthesize pushesSidePanels = _pushesSidePanels;
-@synthesize hideShadows = _hideShadows; 
+@synthesize hideShadows = _hideShadows;
+@synthesize roundCorners = _roundCorners; 
 
 #pragma mark - Icon
 
@@ -298,6 +299,8 @@ static char ja_kvoContext;
 }
 
 - (void)stylePanel:(UIView *)panel {
+    if(!_roundCorners)
+        return;
     panel.layer.cornerRadius = 6.0f;
     panel.clipsToBounds = YES;
 }

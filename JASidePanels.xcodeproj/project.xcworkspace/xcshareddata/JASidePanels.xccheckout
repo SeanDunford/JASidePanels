@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DFF2E1F3-0D81-4A33-89BA-6663C529874E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JASidePanels</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>29C6E85F-DD44-46BE-BAE9-906F6FFECD2E</key>
+		<string>ssh://github.com/SeanDunford/JASidePanels.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JASidePanels.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>29C6E85F-DD44-46BE-BAE9-906F6FFECD2E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/SeanDunford/JASidePanels.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>29C6E85F-DD44-46BE-BAE9-906F6FFECD2E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>29C6E85F-DD44-46BE-BAE9-906F6FFECD2E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SideNavTestProj</string>
+		</dict>
+	</array>
+</dict>
+</plist>
