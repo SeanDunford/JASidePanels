@@ -88,6 +88,9 @@ typedef enum _JASidePanelState {
 // the visible width of the right panel
 @property (nonatomic, readonly) CGFloat rightVisibleWidth;
 
+// hide drop shadows without subclassing
+@property (nonatomic, assign) BOOL hideShadows; //Defaults to NO;
+
 // by default applies a black shadow to the container. override in sublcass to change
 - (void)styleContainer:(UIView *)container animate:(BOOL)animate duration:(NSTimeInterval)duration;
 

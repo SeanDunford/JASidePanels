@@ -80,6 +80,7 @@ static char ja_kvoContext;
 @synthesize allowLeftSwipe = _allowLeftSwipe;
 @synthesize allowRightSwipe = _allowRightSwipe;
 @synthesize pushesSidePanels = _pushesSidePanels;
+@synthesize hideShadows = _hideShadows; 
 
 #pragma mark - Icon
 
@@ -148,6 +149,7 @@ static char ja_kvoContext;
     self.shouldDelegateAutorotateToVisiblePanel = YES;
     self.allowRightSwipe = YES;
     self.allowLeftSwipe = YES;
+    self.hideShadows = NO;
 }
 
 #pragma mark - UIViewController
@@ -278,6 +280,8 @@ static char ja_kvoContext;
 }
 
 - (void)styleContainer:(UIView *)container animate:(BOOL)animate duration:(NSTimeInterval)duration {
+    if(_hideShadows)
+        return;
     UIBezierPath *shadowPath = [UIBezierPath bezierPathWithRoundedRect:container.bounds cornerRadius:0.0f];
     if (animate) {
         CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"shadowPath"];
